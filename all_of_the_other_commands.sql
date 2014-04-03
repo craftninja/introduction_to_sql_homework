@@ -1,4 +1,3 @@
-\c url_shortener_emily_platzer
 CREATE TABLE urls (id SERIAL PRIMARY KEY, original_url text NOT NULL, count integer DEFAULT 0);
 INSERT INTO urls(original_url, count) VALUES('www.boingboing.net', 5);
 INSERT INTO urls(original_url, count) VALUES('www.ravelry.com', 3);
